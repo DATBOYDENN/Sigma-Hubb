@@ -68,3 +68,28 @@ local Window = Rayfield:CreateWindow({
     -- The function that takes place when the button is pressed
     end,
  })
+
+ local Button = MainTab:CreateButton({
+    Name = "Rogue Demon",
+    Callback = function()
+        Rogue = loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/RogueDemon"))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+
+ local Button = MainTab:CreateButton({
+    Name = "Blade Ball",
+    Callback = function()
+        Blade = loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fe59212a6f7257837dd43f2a9c0431f9.lua"))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+
+ local Button = MainTab:CreateButton({
+    Name = "Project Smash",
+    Callback = function()
+        Project = loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/ProjectSmash'))()
+    -- The function that takes place when the button is pressed
+    end,
+ })
+
